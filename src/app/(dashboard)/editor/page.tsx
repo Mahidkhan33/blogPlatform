@@ -186,7 +186,8 @@ export default function NewPostPage() {
                   <input
                     type="file"
                     className="hidden"
-                    accept="image}
+                    accept="image/*"
+                    />
           <Card className="border-black/5 dark:border-white/5 shadow-sm bg-white dark:bg-zinc-900 overflow-hidden rounded-2xl">
             <CardHeader className="border-b border-black/5 dark:border-white/5 bg-zinc-50/50 dark:bg-black/20 pb-3 pt-4">
               <CardTitle className="text-sm font-semibold text-zinc-700 dark:text-zinc-300">Excerpt</CardTitle>
